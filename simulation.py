@@ -4,9 +4,6 @@ from scipy.sparse.linalg import eigsh
 from scipy.linalg import eigh_tridiagonal
 
 
-# =========================
-# PARTIE STATIONNAIRE 2D
-# =========================
 
 def build_grid_2d(N):
     X, Y = np.mgrid[0:1:N*1j, 0:1:N*1j]
