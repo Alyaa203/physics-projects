@@ -13,10 +13,6 @@ from simulation import (
     density_surface,
 )
 
-
-# =========================================================
-# CONFIGURATION GENERALE
-# =========================================================
 st.set_page_config(page_title="Visualisation de Schrödinger", layout="wide")
 
 st.title("Visualisation de l'équation de Schrödinger")
@@ -52,9 +48,6 @@ def artistic_render(psi, glow_sigma=3, glow_intensity=0.7):
     return rho, phi, rgb, rgb_glow
 
 
-# =========================================================
-# REGIME STATIONNAIRE 2D
-# =========================================================
 if page == "Régime stationnaire 2D":
     st.header("Régime stationnaire 2D")
 
@@ -130,9 +123,6 @@ if page == "Régime stationnaire 2D":
     st.write(eigenvalues)
 
 
-# =========================================================
-# REGIME DEPENDANT DU TEMPS 1D
-# =========================================================
 elif page == "Régime dépendant du temps 1D":
     st.header("Régime dépendant du temps 1D")
 
