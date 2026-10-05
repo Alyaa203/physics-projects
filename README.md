@@ -74,16 +74,4 @@ Then open http://localhost:8501. The XAI presentation is in [`presentation.pdf`]
 
 ---
 
-## Screenshots
-
-> _Screenshots coming soon._
-
-| 2D eigenmodes | Time evolution | XAI results |
-| :---: | :---: | :---: |
-| ![2D eigenmodes](docs/screenshots/stationary-2d.png) | ![Time evolution](docs/screenshots/time-1d.png) | ![XAI results](docs/screenshots/xai.png) |
-
-<!-- Add images to docs/screenshots/ using the file names above. -->
-
----
-
 **Author:** Alyaa Saab, engineering student at ENSC (Bordeaux INP)
